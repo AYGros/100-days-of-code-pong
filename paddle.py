@@ -13,7 +13,6 @@ class Paddle(Turtle):
         self.color("white")
         self.setpos(position)
 
-
     def up(self):
         new_y = self.ycor() + STEP
         self.sety(new_y)
